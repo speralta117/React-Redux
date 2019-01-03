@@ -11,7 +11,7 @@ function setup(saving) {
         allAuthors: [],
         onSave: () => {},
         onChange: () => {}
-    }
+    };
 
     return shallow(<CourseForm{...props}/>);
 }
